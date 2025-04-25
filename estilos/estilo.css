@@ -1,0 +1,95 @@
+body {
+    font-family: 'MedievalSharp', 'Georgia', serif;
+    text-align: center;
+    background-color: #1a1510;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    color: #eae0d5;
+}
+
+
+div {
+    background-color: #5a4c32; /* Tom mais escuro, como o ambiente de Baldur's Gate */
+    color: #f5e9c6;
+    padding: 15px;
+    border: 3px solid #4e3b23;
+    border-radius: 10px; /* Cantos mais arredondados */
+    box-shadow: 0 0 15px #3b2f1d; /* Sombras suaves para efeito misterioso */
+}
+
+ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    color: #f9e4b7;
+    text-decoration: none;
+    font-weight: bold;
+    font-variant: small-caps;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s 
+}
+
+a:hover {
+    color: #ffdb58; /* Toque dourado, remete à magia */
+    border-color: #f9e4b7;
+}
+
+input {
+    width: 200px;
+    font-family: 'Georgia', serif;
+    border: 2px solid #5c4b3a;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #fffaf0;
+    color: #3b2f1d;
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.5); /* Efeito de brilho suave */
+}
+
+button {
+    font-family: 'Georgia', serif;
+    background-color: #6b4f36; /* Cor mais escura com um toque dourado */
+    color: #fdf5e6;
+    border: 2px solid #4e3b23;
+    cursor: pointer;
+    padding: auto ;
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #4e3b23;
+}
+
+button:hover {
+    background-color: #a97449;
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+#resultado-imagem p {
+    background-color: #5a4c32; /* Fundo escuro para destacar o texto */
+    color: #f5e9c6;
+    padding: 10px;
+    border: 1px dashed #4e3b23;
+    margin: 20px auto;
+    max-width: 600px;
+    font-style: italic;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); /* Efeito de brilho místico */
+}
+.imagem{
+    text-align: start;
+    height: 25px;
+}
+#mensagem{
+    height: 100px;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+#form-contato{
+   justify-content: center;
+   display: grid;
+}
+
+
+
